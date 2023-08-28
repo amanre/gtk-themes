@@ -1,18 +1,18 @@
 
-pkgname=plank-themes-git
-_pkgname=amos-plank-themes
-_destname1="/usr/share/plank/themes/"
+pkgname=gtk-themes-git
+_pkgname=gtk-themes
+_destname1="/usr/share/themes/"
 pkgver=1
-pkgrel=01
-pkgdesc="Plank themes for amos"
+pkgrel=02
+pkgdesc="gtk themes"
 arch=('any')
-url="https://github.com/amanre/plank-themes"
+url="https://github.com/amanre/gtk-themes"
 license=('GPL3')
 makedepends=('git')
 depends=()
 provides=("${pkgname}")
 options=(!strip !emptydirs)
-source=(${_pkgname}::git+https://github.com/amanre/plank-themes.git)
+source=(${_pkgname}::git+https://github.com/amanre/gtk-themes.git)
 sha256sums=('SKIP')
 package() {
 
