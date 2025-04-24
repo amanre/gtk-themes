@@ -2,8 +2,8 @@
 pkgname=gtk-themes-git
 _pkgname=gtk-themes
 _destname1="/usr/share/themes/"
-pkgver=24.11
-pkgrel=03
+pkgver=25.05
+pkgrel=01
 pkgdesc="gtk-themes"
 arch=('any')
 url="https://github.com/amanre/gtk-themes"
